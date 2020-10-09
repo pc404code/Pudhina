@@ -1,0 +1,47 @@
+
+Git的作用：
+将本地的代码推送到远程【网站GitHub（码云/阿里Code/codeup）】管理仓库（中转站）
+
+
+
+Git上传方法和使用代码:
+workspace\blog\myblog\文件夹下
+代码格式：git add .
+                     git commit -m "（功能加时间）"
+                     git status
+                     git push http://github.com/加git的域名(可以添加别名) master:master 
+  
+git init 创建 .git 文件夹（隐藏文件）
+
+git remote -v 查询别名
+git rm origin（别名） 删除远程版本库中的别名
+ 
+
+git fetch拉取
+git merge 合并
+git diff检查有无冲突
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

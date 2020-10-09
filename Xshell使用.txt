@@ -1,0 +1,46 @@
+apt-get下载软件Ubuntu（系统）
+install nginx安装软件 （-v查看）
+apt-get update更新本地软件源（镜像源）
+cd /etc/apt# vim ./sources.list
+cp ./sources.list.bak复制
+vim sources.list查看镜像文件
+sites-enabled/default更改网站根目录
+cd /etc/apt查看配置文件
+ls查看
+
+底行命令
+：w保存
+：q退出
+
+yy复制（一行）
+dd删除（一行）
+p粘贴
+u撤回
+
+命令行进入编辑模式
+a
+
+编辑模式进入命令行
+esc
+
+service nginx start启动
+service nginx restart重新启动
+service nginx stop停止
+nginx.conf主配置文件
+sites-enabled里面的所有文件
+conf.d里面的所有conf文件
+mv default重命名
+
+cd
+mkdir
+rm
+
+makedir创建文件夹
+touch创建文件
+rm删除
+pwd查看当前目录位置
+:set nu设置行号
+chmod -R 777 权限（循环遍历）
+
+私钥存放在，浏览器根据据公钥解密传输，随机数R(质数)加密后的公钥从服务器中拿取的
+CA证书
